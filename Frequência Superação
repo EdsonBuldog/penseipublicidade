@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Frequência Escolar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Relatório de Frequência Escolar</h1>
+        <h2>Resumo da Frequência</h2>
+        <p>Este relatório apresenta um resumo das presenças e faltas dos alunos da escola.</p>
+        
+        <h3>Dados Gerais</h3>
+        <table>
+            <tr>
+                <th>Nome da Escola</th>
+                <td>Escola Exemplo</td>
+            </tr>
+            <tr>
+                <th>Período</th>
+                <td>Janeiro 2024 - Junho 2024</td>
+            </tr>
+            <tr>
+                <th>Total de Alunos</th>
+                <td>500</td>
+            </tr>
+        </table>
+        
+        <h3>Estatísticas de Frequência</h3>
+        <table>
+            <tr>
+                <th>Aluno</th>
+                <th>Presenças</th>
+                <th>Faltas</th>
+                <th>Percentual de Presença</th>
+            </tr>
+            <!-- Exemplo de Linha de Dados -->
+            <tr>
+                <td>João da Silva</td>
+                <td>95</td>
+                <td>5</td>
+                <td>95%</td>
+            </tr>
+            <tr>
+                <td>Maria Oliveira</td>
+                <td>90</td>
+                <td>10</td>
+                <td>90%</td>
+            </tr>
+            <!-- Mais linhas podem ser adicionadas aqui -->
+        </table>
+        
+        <div class="footer">
+            <a href="javascript:window.print()" class="btn">Baixar Relatório em PDF</a>
+        </div>
+    </div>
+</body>
+</html>
